@@ -2,14 +2,14 @@
 
 Rotas
 
-* Método de retorno da API: JSON
+** Método de retorno da API: JSON
 
-* exceto na rota '/'
+** exceto na rota '/'
 
-GET: '/' => Versão do Lumen e nome da API
-GET: '/api/v1/' => Mostra as rotas de api disponíveis para acesso
-GET: '/api/v1/routes' => Mostra as rotas disponíveis para consulta
-GET: '/api/v1/{partida}/{destino}/{consumo}/{valorCombustivel}/' => Calcula a melhor rota à partir do ponto de partida e destino, mostrando o custo do combustível à partir do consumo do veículo. Exemplo:
+* GET: '/' => Versão do Lumen e nome da API
+* GET: '/api/v1/' => Mostra as rotas de api disponíveis para acesso
+* GET: '/api/v1/routes' => Mostra as rotas disponíveis para consulta
+* GET: '/api/v1/{partida}/{destino}/{consumo}/{valorCombustivel}/' => Calcula a melhor rota à partir do ponto de partida e destino, mostrando o custo do combustível à partir do consumo do veículo. Exemplo:
 
 Exemplo com números inteiros:
 
