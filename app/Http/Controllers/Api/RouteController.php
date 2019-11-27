@@ -48,7 +48,7 @@ class RouteController extends Controller
         $this->a = '';
         $this->b = '';
         $this->gas = 0;
-        $this->con = 0;
+        $this->con = 1;
         $this->routes;
     }
 
