@@ -30,3 +30,8 @@ response (JSON) => {
 
 ** para valores que não sejam inteiros, colocar a string ':' ao invés de '.' ou ','.
 
+Para executar localhost (Ter o PHP instalado), dentro da pasta raiz do projeto, comando:
+
+php -S localhost:8000 -t ./public
+
+
